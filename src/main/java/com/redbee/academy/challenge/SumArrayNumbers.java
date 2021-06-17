@@ -11,8 +11,12 @@ public class SumArrayNumbers {
    * @param array - Some integer list. ([1,2,3])
    * @return The result of 1 + 2 + 3
    */
-  public static Integer sum(List<Integer> array) {
-    //TODO: Implement me
-    return null;
-  }
+     public static Integer sum(List<Integer> array) {
+        Integer suma=0;
+        for (Integer num: array) {
+            suma=suma+num;
+        }
+        return suma;
+    }
+}
 }
