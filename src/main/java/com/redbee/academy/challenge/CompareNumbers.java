@@ -11,8 +11,19 @@ public class CompareNumbers {
    * @param c - Another Integer Number
    * @return The max of a, b and c
    */
-  public static Integer max(Integer a, Integer b, Integer c) {
-    //TODO: Implement me
-    return null;
-  }
+   public static Integer max(Integer a, Integer b, Integer c) {
+        Integer mayor=0;
+
+        if (a>b && a>c){
+           mayor= a;
+        }
+        if (c>b && c>b){
+            mayor= c;
+        }
+        if (b>a && b>c){
+            mayor= b;
+        }
+
+        return mayor;
+    }
 }
